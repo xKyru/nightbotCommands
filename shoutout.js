@@ -23,4 +23,4 @@
 //     }
 // }
 
-"Hola Mundo"
+return "Hola Mundo"
