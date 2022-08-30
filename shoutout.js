@@ -1,3 +1,6 @@
+// !addcom !so $(eval let usuario="$(query)"; var usuarioTwitch="$(twitch usuario)"; $(urlfetch json https://raw.githubusercontent.com/xKyru/nightbotCommands/main/shoutout.js))
+
+
 //!addcom !so $(eval var usuario="$(query)".toLowerCase(); var usuarioTwitch="$(twitch $(usuario))"; $(urlfetch https://raw.githubusercontent.com/xKyru/nightbotCommands/main/shoutout.js))
 
 // let announcements = [
@@ -19,4 +22,4 @@
 //     }
 // }
 
-return "Hola desde bot.js"
+("Hola desde bot.js")
