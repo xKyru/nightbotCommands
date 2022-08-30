@@ -22,4 +22,4 @@
 //     }
 // }
 
-("Hola desde bot.js")
+return "Hola desde bot.js";
