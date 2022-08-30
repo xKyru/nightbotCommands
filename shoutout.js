@@ -1,5 +1,5 @@
-if(!username){
-    ("Error en el comando: !so [username]");
-}else{
-    (`El usuario es ${user}`);
-}
+$(eval if ($(1) && $(2)) {
+	Math.floor(Math.random() * ($(2) - $(1) + 1) + $(1));
+} else {
+	Math.floor((Math.random() * 100) + 1);
+})
