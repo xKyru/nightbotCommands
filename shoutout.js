@@ -4,21 +4,23 @@
 
 //!addcom !so $(eval var usuario="$(query)".toLowerCase(); var usuarioTwitch="$(twitch $(usuario))"; $(urlfetch https://raw.githubusercontent.com/xKyru/nightbotCommands/main/shoutout.js))
 
-let announcements = [
-    "announce",
-    "announcepurple",
-    "announcegreen",
-    "announceorange"
-]
+// let announcements = [
+//     "announce",
+//     "announcepurple",
+//     "announcegreen",
+//     "announceorange"
+// ]
 
-if(!userName){
-    "Error en el comando: !so [userName]";
-}else{
-    var usuarioTwitch='$(twitch $(userName) "{{displayName}}")'
-    for(announce in announcements){
-        `/${announce} ${usuarioTwitch}`;
-        setTimeout(() => {
+// if(!userName){
+//     "Error en el comando: !so [userName]";
+// }else{
+//     var usuarioTwitch='$(twitch $(userName) "{{displayName}}")'
+//     for(announce in announcements){
+//         `/${announce} ${usuarioTwitch}`;
+//         setTimeout(() => {
             
-        }, 5100);
-    }
-}
+//         }, 5100);
+//     }
+// }
+
+"Hola Mundo"
