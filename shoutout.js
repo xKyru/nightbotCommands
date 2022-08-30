@@ -1,5 +1,10 @@
 if(!usuario){
-    "No se encontró el usuario.";
+    "Error en el comando: !so [canal]";
+}else if(!usuarioTwitch){
+    "Usuario no encontrado";
 }else{
     `${usuarioTwitch}`;
 }
+
+
+
