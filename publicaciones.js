@@ -1,5 +1,5 @@
 return "Hola desde archivo JS";
-/*
+/* ///
 	switch (opt){
 		case twitter:
 			return "Twitter";
