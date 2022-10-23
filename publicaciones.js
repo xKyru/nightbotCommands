@@ -18,4 +18,4 @@
 
 
 
-//$(eval $(let opt = '$(1)'; urlfetch json https://raw.githubusercontent.com/xKyru/nightbotCommands/main/publicaciones.js))
+/*$(eval $(let opt = '$(1)'; urlfetch json https://raw.githubusercontent.com/xKyru/nightbotCommands/main/publicaciones.js))*/
