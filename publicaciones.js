@@ -19,7 +19,7 @@ function announcements(announce) {
 			url: "https://www.tiktok.com/@eritrajinx/video/7157397576126352646"
 		},
 		sorteo: {
-			msg: "✨SORTEO ION BUNDLE 2.0✨ Participa en el sorteo de skins Ion 2.0 #Valorant 💜",
+			msg: "✨SORTEO ION BUNDLE 2.0 NEW TEST✨ Participa en el sorteo de skins Ion 2.0 #Valorant 💜",
 			url: "https://twitter.com/EritraJinx/status/1582832735776710656"
 		},
 		sorteo2: {
