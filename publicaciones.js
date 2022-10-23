@@ -1,4 +1,5 @@
-
+return "Hola desde archivo JS";
+/*
 	switch (opt){
 		case twitter:
 			return "Twitter";
@@ -14,7 +15,7 @@
 			return "Sorteo";
 		default:
 			return "Opción no encontrada";
-	}
+	}*/
 
 
 
