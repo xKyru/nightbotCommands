@@ -1,4 +1,13 @@
-return "Hola desde archivo JS";
+function announcePost(socialName){
+	switch (socialName){
+		case "twitter":
+			return "Hay nueva publicación de twitter";
+		case "instagram":
+			return "Hay nueva publicación de Instagram";
+		default:
+			return "Opción no encontrada";
+	}
+}
 /* ///
 	switch (opt){
 		case twitter:
