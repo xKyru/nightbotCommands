@@ -34,7 +34,7 @@ function announcements(announce) {
 	};
 
 	if(announce in posts){
-		return `/announce $(posts[announce].msg) $(posts[announce].url)`;
+		return "/announce " + $(posts[announce].msg) + " " +  $(posts[announce].url);
 	}else{
 		return "Opción no encontrada.";
 	};
