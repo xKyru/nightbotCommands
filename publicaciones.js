@@ -1,4 +1,4 @@
-announcePost(socialName);
+// announcePost(socialName);
 
 function announcePost(socialAccounce){
 	switch (socialAccounce){
@@ -30,4 +30,4 @@ function announcePost(socialAccounce){
 
 
 
-/*$(eval $(let opt = '$(1)'; urlfetch json https://raw.githubusercontent.com/xKyru/nightbotCommands/main/publicaciones.js))*/
+	// !editcom !test $(eval const socialName = 'twitter'; urlfetch json https://raw.githubusercontent.com/xKyru/nightbotCommands/main/publicaciones.js)
