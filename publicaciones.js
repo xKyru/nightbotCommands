@@ -31,13 +31,13 @@ function announcements(announce) {
 			msg: "",
 			url: ""
 		}
-	}
+	};
 
 	if(announce.toLowerCase() in posts){
-		return `$(posts[announce.toLowerCase()].msg) $(posts[announce.toLowerCase()].url)`;
+		return `/announce $(posts[announce.toLowerCase()].msg) $(posts[announce.toLowerCase()].url)`;
 	}else{
-		return "Opción no encontrada."
-	}
+		return "Opción no encontrada.";
+	};
 }
 
 /* (eval type = decodeURIComponent(`$(querystring)`); $(urlfetch json https://raw.githubusercontent.com/xKyru/nightbotCommands/main/publicaciones.js)) */
