@@ -1,5 +1,5 @@
-$(
-	eval let opt = '$(1)');  
+
+	let opt = '$(1)';  
 	switch (opt){
 		case twitter:
 			return "Twitter";
@@ -16,4 +16,7 @@ $(
 		default:
 			return "Opción no encontrada";
 	}
-)
+
+
+
+//$(eval $(urlfetch json https://raw.githubusercontent.com/xKyru/nightbotCommands/main/publicaciones.js))
