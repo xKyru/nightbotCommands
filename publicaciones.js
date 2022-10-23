@@ -1,5 +1,7 @@
-function announcePost(socialName){
-	switch (socialName){
+announcePost(socialName);
+
+function announcePost(socialAccounce){
+	switch (socialAccounce){
 		case "twitter":
 			return "Hay nueva publicación de twitter";
 		case "instagram":
