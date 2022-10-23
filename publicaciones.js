@@ -1,7 +1,6 @@
 announcements(type);
 
 function announcements(announce) {
-	/* URL posts */
 	const posts = {
 		instapic: {
 			msg: "📷NUEVA FOTO📷 Me ayudas mucho al darle like, comentar y compartir 💜",
