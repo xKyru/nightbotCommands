@@ -1,4 +1,4 @@
-// announcePost(socialName);
+announcePost(socialName);
 
 function announcePost(socialAccounce){
 	switch (socialAccounce){
