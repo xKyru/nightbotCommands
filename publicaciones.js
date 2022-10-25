@@ -2,9 +2,9 @@ announcements(type);
 
 function announcements(announce) {
 	const posts = {
-		instapic: {
-			msg: "📷NUEVA FOTO📷 Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.instagram.com/p/Cj4Ns0RjgZc"
+		instapost: {
+			msg: "🔥📷NUEVO POST | TORNEO ACADEMIA RUNNERS📷🔥 Me ayudas mucho al darle like, comentar y compartir 💜",
+			url: "https://www.instagram.com/p/CkG4CotpU_I/"
 		},
 		instareel: {
 			msg: "👀NUEVO REEL👀 Me ayudas mucho al darle like, comentar y compartir 💜",
