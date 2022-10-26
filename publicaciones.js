@@ -31,7 +31,7 @@ function announcements(announce) {
 	};
 	
 	if(announce === "all"){
-		let response = "Sigue mis últimas publicaciones, me ayudas mucho al darle like, comentar y compartir 💜 ";
+		let response = `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} Sigue mis últimas publicaciones, me ayudas mucho al darle like, comentar y compartir 💜 `;
 
 		for(let [key, value] of Object.entries(posts)){
 			response += `${value.title} ${value.url}`
