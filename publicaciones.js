@@ -47,7 +47,7 @@ function announcements(announce) {
 		for(let [key, value] of Object.entries(posts)){
 			options += key + " | ";
 		}
-		return `Opciones disponibles: ${options}`;
+		return `Opciones disponibles: ${options}all`;
 	};
 }
 
