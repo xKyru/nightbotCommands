@@ -3,8 +3,8 @@ announcements(type);
 function announcements(announce) {
 	const posts = {
 		instapost: {
-			msg: "🔥📷NUEVO POST | TORNEO ACADEMIA RUNNERS📷🔥 Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.instagram.com/p/CkG4CotpU_I/"
+			msg: "📷NUEVA FOTO📷 Me ayudas mucho al darle like, comentar y compartir 💜",
+			url: "https://www.instagram.com/p/CkKH_H1DIzM/"
 		},
 		instareel: {
 			msg: "👀NUEVO REEL👀 Me ayudas mucho al darle like, comentar y compartir 💜",
@@ -16,7 +16,7 @@ function announcements(announce) {
 		},
 		tiktok: {
 			msg: "🔥NUEVO TIKTOK🔥 Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.tiktok.com/@eritrajinx/video/7157397576126352646"
+			url: "https://www.tiktok.com/@eritrajinx/video/7158577027363245317"
 		},
 		sorteo: {
 			msg: "✨SORTEO ION BUNDLE 2.0✨ Participa en el sorteo de skins Ion 2.0 #Valorant 💜",
