@@ -6,7 +6,7 @@ function announcements(announce) {
 		instapost: {
 			title: "📷NUEVA FOTO📷",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.instagram.com/p/CkKH_H1DIzM/"
+			url: "https://www.instagram.com/p/CkKH_H1DIzM"
 		},
 		instareel: {
 			title: "👀NUEVO REEL👀",
@@ -31,10 +31,10 @@ function announcements(announce) {
 	};
 	
 	if(announce === "all"){
-		let response = `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} Sigue mis últimas publicaciones, me ayudas mucho al darle like, comentar y compartir 💜 `;
+		let response = `${announceStyles[Math.floor(Math.random() * announceStyles.length)]}`;
 
 		for(let [key, value] of Object.entries(posts)){
-			response += `${value.title} ${value.url}`
+			response += ` ${value.title} ${value.url} `
 		}
 
 		return response;
