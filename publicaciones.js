@@ -1,6 +1,7 @@
 announcements(type);
 
 function announcements(announce) {
+	const announceStyles = ["/announce", "/announceblue", "/announcegreen", "/announceorange", "/announcepurple"];
 	const posts = {
 		instapost: {
 			msg: "📷NUEVA FOTO📷 Me ayudas mucho al darle like, comentar y compartir 💜",
@@ -33,7 +34,7 @@ function announcements(announce) {
 	};
 	
 	if(announce in posts){
-		return `/announce ${posts[announce].msg} ${posts[announce].url}`;
+		return `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announce].msg} ${posts[announce].url}`;
 	}else{
 		return "Opción no encontrada.";
 	};
