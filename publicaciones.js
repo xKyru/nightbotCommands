@@ -31,7 +31,7 @@ function announcements(announce) {
 	};
 	
 	if(announce === "all"){
-		const response = "Sigue mis últimas publicaciones, me ayudas mucho al darle like, comentar y compartir 💜 ";
+		let response = "Sigue mis últimas publicaciones, me ayudas mucho al darle like, comentar y compartir 💜 ";
 
 		for(let [key, value] of Object.entries(posts)){
 			response += `${value.title} ${value.url}`
@@ -43,7 +43,7 @@ function announcements(announce) {
 	else if(announce in posts){
 		return `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announce].title} ${posts[announce].msg} ${posts[announce].url}`;
 	}else{
-		const options = "";
+		let options = "";
 		for(let [key, value] of Object.entries(posts)){
 			options += key + " | ";
 		}
