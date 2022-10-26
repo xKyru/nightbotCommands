@@ -4,39 +4,50 @@ function announcements(announce) {
 	const announceStyles = ["/announce", "/announceblue", "/announcegreen", "/announceorange", "/announcepurple"];
 	const posts = {
 		instapost: {
-			msg: "📷NUEVA FOTO📷 Me ayudas mucho al darle like, comentar y compartir 💜",
+			title: "📷NUEVA FOTO📷",
+			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.instagram.com/p/CkKH_H1DIzM/"
 		},
 		instareel: {
-			msg: "👀NUEVO REEL👀 Me ayudas mucho al darle like, comentar y compartir 💜",
+			title: "👀NUEVO REEL👀",
+			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.instagram.com/p/Cj4Ns0RjgZc"
 		},
 		youtube: {
-			msg: "📽️NUEVO VIDEO📽️ Me ayudas mucho al darle like, comentar y compartir 💜",
+			title: "📽️NUEVO VIDEO📽️",
+			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.youtube.com/watch?v=dUcjHlO7LjQ"
 		},
 		tiktok: {
-			msg: "🔥NUEVO TIKTOK🔥 Me ayudas mucho al darle like, comentar y compartir 💜",
+			title: "🔥NUEVO TIKTOK🔥",
+			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.tiktok.com/@eritrajinx/video/7158577027363245317"
 		},
-		sorteo: {
-			msg: "✨SORTEO ION BUNDLE 2.0✨ Participa en el sorteo de skins Ion 2.0 #Valorant 💜",
+		twitter: {
+			title: "✨SORTEO ION BUNDLE 2.0✨",
+			msg: "Participa en el sorteo de skins Ion 2.0 #Valorant 💜",
 			url: "https://twitter.com/EritraJinx/status/1582832735776710656"
-		},
-		sorteo2: {
-			msg: "",
-			url: ""
-		},
-		sorteo3: {
-			msg: "",
-			url: ""
 		}
 	};
 	
-	if(announce in posts){
-		return `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announce].msg} ${posts[announce].url}`;
+	if(announce === "all"){
+		const response = "Sigue mis últimas publicaciones, me ayudas mucho al darle like, comentar y compartir 💜 ";
+
+		for(let [key, value] of Object.entries(posts)){
+			response += `${value.title} ${value.url}`
+		}
+
+		return response;
+
+	}
+	else if(announce in posts){
+		return `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announce].title} ${posts[announce].msg} ${posts[announce].url}`;
 	}else{
-		return "Opción no encontrada.";
+		const options = "";
+		for(let [key, value] of Object.entries(posts)){
+			options += key + " | ";
+		}
+		return `Opciones disponibles: ${options}`;
 	};
 }
 
