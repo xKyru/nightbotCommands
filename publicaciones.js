@@ -11,7 +11,7 @@ function announcements(announce) {
 		instareel: {
 			title: "👀NUEVO REEL👀",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.instagram.com/p/Cj4Ns0RjgZc"
+			url: "https://www.instagram.com/p/CkRnXhiAxFg"
 		},
 		youtube: {
 			title: "📽️NUEVO VIDEO📽️",
@@ -21,7 +21,7 @@ function announcements(announce) {
 		tiktok: {
 			title: "🔥NUEVO TIKTOK🔥",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.tiktok.com/@eritrajinx/video/7158577027363245317"
+			url: "https://www.tiktok.com/@eritrajinx/video/7161153417497382149"
 		},
 		twitter: {
 			title: "✨SORTEO ION BUNDLE 2.0✨",
