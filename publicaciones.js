@@ -16,7 +16,7 @@ function announcements(announce) {
 		youtube: {
 			title: "📽️NUEVO VIDEO📽️",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.youtube.com/watch?v=dUcjHlO7LjQ"
+			url: "https://www.youtube.com/watch?v=TjIv1QhuqVA"
 		},
 		tiktok: {
 			title: "🔥NUEVO TIKTOK🔥",
