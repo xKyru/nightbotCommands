@@ -27,6 +27,11 @@ function announcements(announce) {
 			title: "✨SORTEO ION BUNDLE 2.0✨",
 			msg: "Participa en el sorteo de skins Ion 2.0 #Valorant 💜",
 			url: "https://twitter.com/EritraJinx/status/1582832735776710656"
+		},
+		xbox:{
+			title: "✨Twitch + Xbox✨",
+			msg: "Regala 2 o más sucripciones y obtén 3 meses de PC Game Pass",
+			url: ""
 		}
 	};
 	
