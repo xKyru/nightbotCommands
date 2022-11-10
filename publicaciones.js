@@ -11,7 +11,7 @@ function announcements(announce) {
 		instareel: {
 			title: "👀NUEVO REEL👀",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.instagram.com/p/CkRnXhiAxFg"
+			url: "https://www.instagram.com/p/Ckw-RWjjcIf"
 		},
 		youtube: {
 			title: "📽️NUEVO VIDEO📽️",
