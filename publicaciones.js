@@ -21,7 +21,7 @@ function announcements(announce) {
 		tiktok: {
 			title: "🔥NUEVO TIKTOK🔥",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.tiktok.com/@eritrajinx/video/7161153417497382149"
+			url: "https://www.tiktok.com/@eritrajinx/video/7172317138420796677"
 		},
 		twitter: {
 			title: "✨SORTEO ION BUNDLE 2.0✨",
