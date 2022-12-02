@@ -6,7 +6,7 @@ function announcements(announce) {
 		instapost: {
 			title: "📷NUEVA FOTO📷",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.instagram.com/p/CkKH_H1DIzM"
+			url: "https://www.instagram.com/p/ClDC8MqjAmi"
 		},
 		instareel: {
 			title: "👀NUEVO REEL👀",
