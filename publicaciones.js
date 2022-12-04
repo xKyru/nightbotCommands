@@ -25,7 +25,7 @@ function announcements(announce) {
 		},
 		twitter: {
 			title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐂𝐎𝐍𝐒𝐎𝐋𝐀 𝐃𝐄 𝐀𝐔𝐃𝐈𝐎 𝐙𝐆𝟎𝟏 𝐘𝐀𝐌𝐀𝐇𝐀✨",
-			msg: "Participa en el sorteo de skins Ion 2.0 #Valorant 💜",
+			msg: "Participa por un mezclador de audio de juegos ZG01 de Yamaha 💜",
 			url: "https://twitter.com/EritraJinx/status/1598852763965804545"
 		}
 	};
