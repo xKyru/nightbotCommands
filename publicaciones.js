@@ -52,3 +52,32 @@ function announcements(announce) {
 }
 
 /* !addcom !anuncio $(eval const type = decodeURIComponent(`$(querystring)`); $(urlfetch json https://raw.githubusercontent.com/xKyru/nightbotCommands/main/publicaciones.js)) */
+
+/* 
+𝐀
+𝐁
+𝐂
+𝐃
+𝐄
+𝐅
+𝐆
+𝐇
+𝐈
+𝐉
+𝐊
+𝐋
+𝐌
+𝐍
+𝐎
+𝐏
+𝐐
+𝐑
+𝐒
+𝐓
+𝐔
+𝐕
+𝐖
+𝐗
+𝐘
+𝐙
+*/
