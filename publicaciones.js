@@ -4,34 +4,29 @@ function announcements(announce) {
 	const announceStyles = ["/announce", "/announceblue", "/announcegreen", "/announceorange", "/announcepurple"];
 	const posts = {
 		instapost: {
-			title: "📷NUEVA FOTO📷",
+			title: "🔥𝐍𝐔𝐄𝐕𝐀 𝐅𝐎𝐓𝐎",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.instagram.com/p/ClDC8MqjAmi"
 		},
 		instareel: {
-			title: "👀NUEVO REEL👀",
+			title: "🔥𝐍𝐔𝐄𝐕𝐎 𝐑𝐄𝐄𝐋",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.instagram.com/p/Ckw-RWjjcIf"
 		},
 		youtube: {
-			title: "📽️NUEVO VIDEO📽️",
+			title: "🔥𝐍𝐔𝐄𝐕𝐎 𝐕𝐈𝐃𝐄𝐎",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.youtube.com/watch?v=TjIv1QhuqVA"
 		},
 		tiktok: {
-			title: "🔥NUEVO TIKTOK🔥",
+			title: "🔥𝐍𝐔𝐄𝐕𝐎 𝐓𝐈𝐊𝐓𝐎𝐊🔥",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.tiktok.com/@eritrajinx/video/7172317138420796677"
 		},
 		twitter: {
-			title: "✨SORTEO ION BUNDLE 2.0✨",
+			title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐂𝐎𝐍𝐒𝐎𝐋𝐀 𝐃𝐄 𝐀𝐔𝐃𝐈𝐎 𝐙𝐆𝟎𝟏 𝐘𝐀𝐌𝐀𝐇𝐀✨",
 			msg: "Participa en el sorteo de skins Ion 2.0 #Valorant 💜",
-			url: "https://twitter.com/EritraJinx/status/1582832735776710656"
-		},
-		xbox:{
-			title: "✨Twitch + Xbox✨",
-			msg: "Regala 2 o más sucripciones y obtén 3 meses de PC Game Pass",
-			url: ""
+			url: "https://twitter.com/EritraJinx/status/1598852763965804545"
 		}
 	};
 	
@@ -57,3 +52,8 @@ function announcements(announce) {
 }
 
 /* !addcom !anuncio $(eval const type = decodeURIComponent(`$(querystring)`); $(urlfetch json https://raw.githubusercontent.com/xKyru/nightbotCommands/main/publicaciones.js)) */
+
+
+
+
+
