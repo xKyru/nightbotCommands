@@ -4,17 +4,17 @@ function announcements(announce) {
 	const announceStyles = ["/announce", "/announceblue", "/announcegreen", "/announceorange", "/announcepurple"];
 	const posts = {
 		instapost: {
-			title: "🔥𝐍𝐔𝐄𝐕𝐀 𝐅𝐎𝐓𝐎",
+			title: "📷𝐍𝐔𝐄𝐕𝐀 𝐅𝐎𝐓𝐎📷",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.instagram.com/p/ClDC8MqjAmi"
 		},
 		instareel: {
-			title: "🔥𝐍𝐔𝐄𝐕𝐎 𝐑𝐄𝐄𝐋",
+			title: "👀𝐍𝐔𝐄𝐕𝐎 𝐑𝐄𝐄𝐋👀",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.instagram.com/p/ClxJy50Dims"
 		},
 		youtube: {
-			title: "🔥𝐍𝐔𝐄𝐕𝐎 𝐕𝐈𝐃𝐄𝐎",
+			title: "🎥𝐍𝐔𝐄𝐕𝐎 𝐕𝐈𝐃𝐄𝐎🎥",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.youtube.com/watch?v=TjIv1QhuqVA"
 		},
