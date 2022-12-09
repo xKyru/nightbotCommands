@@ -27,7 +27,18 @@ function announcements(announce) {
 			title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐂𝐎𝐍𝐒𝐎𝐋𝐀 𝐃𝐄 𝐀𝐔𝐃𝐈𝐎 𝐙𝐆𝟎𝟏 𝐘𝐀𝐌𝐀𝐇𝐀✨",
 			msg: "Participa por un mezclador de audio de juegos ZG01 de Yamaha 💜",
 			url: "https://twitter.com/EritraJinx/status/1598852763965804545"
-		}
+		},
+		lpp: {
+			title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐌𝐔𝐑𝐂𝐈𝐄𝐋𝐀𝐍𝐈𝐕𝐈𝐀✨",
+			msg: "Participa por una skin para Anivia. Incluye Campeón + Skin + Chroma #LPP 💜",
+			url: "https://twitter.com/EritraJinx/status/1595496152551473158"
+		},
+		skin: {
+			title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐘𝐎𝐑𝐈𝐂𝐊 𝐅𝐋𝐎𝐑 𝐄𝐒𝐏𝐈𝐑𝐈𝐓𝐔𝐀𝐋✨",
+			msg: "Participa por una skin para Yorick. Incluye Campeón + Skin + Chroma #LPP 💜",
+			url: "https://www.instagram.com/p/ClZn8WVJXCX/"
+		},
+
 	};
 	
 	if(announce === "all"){
@@ -81,3 +92,18 @@ function announcements(announce) {
 𝐘
 𝐙
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
