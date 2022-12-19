@@ -16,7 +16,7 @@ function announcements(announce) {
 		youtube: {
 			title: "🎥𝐍𝐔𝐄𝐕𝐎 𝐕𝐈𝐃𝐄𝐎🎥",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.youtube.com/watch?v=TjIv1QhuqVA"
+			url: "https://www.youtube.com/watch?v=leE1Cm5Ouhw"
 		},
 		tiktok: {
 			title: "🔥𝐍𝐔𝐄𝐕𝐎 𝐓𝐈𝐊𝐓𝐎𝐊🔥",
@@ -92,18 +92,3 @@ function announcements(announce) {
 𝐘
 𝐙
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
