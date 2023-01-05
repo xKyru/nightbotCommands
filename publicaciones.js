@@ -28,16 +28,18 @@ function announcements(announce) {
 			msg: "Participa por un mezclador de audio de juegos ZG01 de Yamaha 💜",
 			url: "https://twitter.com/EritraJinx/status/1598852763965804545"
 		},
-		lpp: {
-			title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐖𝐈𝐍𝐓𝐄𝐑𝐁𝐋𝐄𝐒𝐒𝐄𝐃 𝐙𝐈𝐋𝐄𝐀𝐍",
-			msg: "Participa por una skin de Zilean. Incluye Campeón + Skin + Chroma #LPP 💜",
-			url: "https://twitter.com/EritraJinx/status/1610826039634149376"
-		},/*
-		skin: {
-			title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐘𝐎𝐑𝐈𝐂𝐊 𝐅𝐋𝐎𝐑 𝐄𝐒𝐏𝐈𝐑𝐈𝐓𝐔𝐀𝐋✨",
-			msg: "Participa por una skin para Yorick. Incluye Campeón + Skin + Chroma #LPP 💜",
-			url: "https://www.instagram.com/p/ClZn8WVJXCX/"
-		},*/
+		skins:{
+			skin1:{
+				title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐖𝐈𝐍𝐓𝐄𝐑𝐁𝐋𝐄𝐒𝐒𝐄𝐃 𝐙𝐈𝐋𝐄𝐀𝐍",
+				msg: "Participa por una skin de Zilean. Incluye Campeón + Skin + Chroma #LPP 💜",
+				url: "https://twitter.com/EritraJinx/status/1610826039634149376"
+			},
+			skin2:{
+				title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐒𝐏𝐀𝐂𝐄 𝐆𝐑𝐎𝐎𝐕𝐄 𝐆𝐑𝐀𝐆𝐀𝐒✨",
+				msg: "Participa por una skin para Yorick. Incluye Campeón + Skin + Chroma #LPP 💜",
+				url: "https://twitter.com/EritraJinx/status/1611067632014266370"
+			}
+		}
 
 	};
 	
@@ -52,7 +54,17 @@ function announcements(announce) {
 
 	}
 	else if(announce in posts){
-		return `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announce].title} ${posts[announce].msg} ${posts[announce].url}`;
+		if(announce === "skins"){
+			let response = `${announceStyles[Math.floor(Math.random() * announceStyles.length)]}`;
+
+			for(let [key, value] of Object.entries(posts.skins)){
+				response += ` ${value.title} ${value.msg} ${value.url} `;
+			}
+
+			return response;
+		}else{
+			return `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announce].title} ${posts[announce].msg} ${posts[announce].url}`;
+		}
 	}else{
 		let options = "";
 		for(let [key, value] of Object.entries(posts)){
