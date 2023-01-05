@@ -31,12 +31,12 @@ function announcements(announce) {
 		skins:{
 			skin1:{
 				title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐖𝐈𝐍𝐓𝐄𝐑𝐁𝐋𝐄𝐒𝐒𝐄𝐃 𝐙𝐈𝐋𝐄𝐀𝐍",
-				msg: "Participa por una skin de Zilean. Incluye Campeón + Skin + Chroma #LPP 💜",
+				msg: "",
 				url: "https://twitter.com/EritraJinx/status/1610826039634149376"
 			},
 			skin2:{
 				title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐒𝐏𝐀𝐂𝐄 𝐆𝐑𝐎𝐎𝐕𝐄 𝐆𝐑𝐀𝐆𝐀𝐒✨",
-				msg: "Participa por una skin para Gragas. Incluye Campeón + Skin + Chroma #LPP 💜",
+				msg: "",
 				url: "https://twitter.com/EritraJinx/status/1611067632014266370"
 			}
 		}
