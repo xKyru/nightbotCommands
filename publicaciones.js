@@ -36,7 +36,7 @@ function announcements(announce) {
 			},
 			skin2:{
 				title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐒𝐏𝐀𝐂𝐄 𝐆𝐑𝐎𝐎𝐕𝐄 𝐆𝐑𝐀𝐆𝐀𝐒✨",
-				msg: "Participa por una skin para Yorick. Incluye Campeón + Skin + Chroma #LPP 💜",
+				msg: "Participa por una skin para Gragas. Incluye Campeón + Skin + Chroma #LPP 💜",
 				url: "https://twitter.com/EritraJinx/status/1611067632014266370"
 			}
 		}
