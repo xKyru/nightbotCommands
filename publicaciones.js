@@ -6,12 +6,12 @@ function announcements(announce) {
 		instapost: {
 			title: "📷𝐍𝐔𝐄𝐕𝐀 𝐅𝐎𝐓𝐎📷",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.instagram.com/p/CmIWUrhjsi5"
+			url: "https://www.instagram.com/p/CmkzI8RDXBV"
 		},
 		instareel: {
 			title: "👀𝐍𝐔𝐄𝐕𝐎 𝐑𝐄𝐄𝐋👀",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.instagram.com/p/Cl41MZrAevW"
+			url: "https://www.instagram.com/p/Cm3Kw_hALkO"
 		},
 		youtube: {
 			title: "🎥𝐍𝐔𝐄𝐕𝐎 𝐕𝐈𝐃𝐄𝐎🎥",
@@ -29,9 +29,9 @@ function announcements(announce) {
 			url: "https://twitter.com/EritraJinx/status/1598852763965804545"
 		},
 		lpp: {
-			title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐌𝐔𝐑𝐂𝐈𝐄𝐋𝐀𝐍𝐈𝐕𝐈𝐀✨",
-			msg: "Participa por una skin para Anivia. Incluye Campeón + Skin + Chroma #LPP 💜",
-			url: "https://twitter.com/EritraJinx/status/1595496152551473158"
+			title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐖𝐈𝐍𝐓𝐄𝐑𝐁𝐋𝐄𝐒𝐒𝐄𝐃 𝐙𝐈𝐋𝐄𝐀𝐍",
+			msg: "Participa por una skin de Zilean. Incluye Campeón + Skin + Chroma #LPP 💜",
+			url: "https://twitter.com/EritraJinx/status/1610826039634149376"
 		},/*
 		skin: {
 			title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐘𝐎𝐑𝐈𝐂𝐊 𝐅𝐋𝐎𝐑 𝐄𝐒𝐏𝐈𝐑𝐈𝐓𝐔𝐀𝐋✨",
