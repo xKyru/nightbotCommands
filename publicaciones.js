@@ -32,6 +32,7 @@ function announcements(announce) {
 			skin1:{
 				title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐖𝐈𝐍𝐓𝐄𝐑𝐁𝐋𝐄𝐒𝐒𝐄𝐃 𝐙𝐈𝐋𝐄𝐀𝐍",
 				msg: "",
+				/*msg: "Participa por una skin de Zilean. Incluye Campeón + Skin + Chroma #LPP 💜"*/
 				url: "https://twitter.com/EritraJinx/status/1610826039634149376"
 			},
 			skin2:{
