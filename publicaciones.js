@@ -16,12 +16,12 @@ function announcements(announce) {
 		youtube: {
 			title: "🎥𝐍𝐔𝐄𝐕𝐎 𝐕𝐈𝐃𝐄𝐎🎥",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.youtube.com/watch?v=leE1Cm5Ouhw"
+			url: "https://www.youtube.com/watch?v=B09toQKEAG4"
 		},
 		tiktok: {
 			title: "🔥𝐍𝐔𝐄𝐕𝐎 𝐓𝐈𝐊𝐓𝐎𝐊🔥",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.tiktok.com/@eritrajinx/video/7176406264237395206"
+			url: "https://www.tiktok.com/@eritrajinx/video/7186398745536236806"
 		},
 		twitter: {
 			title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐂𝐎𝐍𝐒𝐎𝐋𝐀 𝐃𝐄 𝐀𝐔𝐃𝐈𝐎 𝐙𝐆𝟎𝟏 𝐘𝐀𝐌𝐀𝐇𝐀✨",
