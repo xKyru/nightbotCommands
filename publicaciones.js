@@ -21,7 +21,7 @@ function announcements(announce) {
 		tiktok: {
 			title: "🔥𝐍𝐔𝐄𝐕𝐎 𝐓𝐈𝐊𝐓𝐎𝐊🔥",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.tiktok.com/@eritrajinx/video/7191921616190803206"
+			url: "https://www.tiktok.com/@eritrajinx/video/7192713162259516678"
 		},
 		twitter: {
 			title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐂𝐎𝐍𝐒𝐎𝐋𝐀 𝐃𝐄 𝐀𝐔𝐃𝐈𝐎 𝐙𝐆𝟎𝟏 𝐘𝐀𝐌𝐀𝐇𝐀✨",
