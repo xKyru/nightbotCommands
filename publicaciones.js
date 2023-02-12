@@ -6,12 +6,12 @@ function announcements(announce) {
 		instapost: {
 			title: "📷𝐍𝐔𝐄𝐕𝐀 𝐅𝐎𝐓𝐎📷",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.instagram.com/p/Cnn9atVMCkY"
+			url: "https://www.instagram.com/p/CoENduIjCoB"
 		},
 		instareel: {
 			title: "👀𝐍𝐔𝐄𝐕𝐎 𝐑𝐄𝐄𝐋👀",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.instagram.com/p/Cm3Kw_hALkO"
+			url: "https://www.instagram.com/p/CogP82eDoBR"
 		},
 		youtube: {
 			title: "🎥𝐍𝐔𝐄𝐕𝐎 𝐕𝐈𝐃𝐄𝐎🎥",
@@ -21,7 +21,7 @@ function announcements(announce) {
 		tiktok: {
 			title: "🔥𝐍𝐔𝐄𝐕𝐎 𝐓𝐈𝐊𝐓𝐎𝐊🔥",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.tiktok.com/@eritrajinx/video/7194551294152002822"
+			url: "https://www.tiktok.com/@eritrajinx/video/7198989497332288773"
 		},
 		twitter: {
 			title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐂𝐎𝐍𝐒𝐎𝐋𝐀 𝐃𝐄 𝐀𝐔𝐃𝐈𝐎 𝐙𝐆𝟎𝟏 𝐘𝐀𝐌𝐀𝐇𝐀✨",
