@@ -1,7 +1,6 @@
 announcements(type);
 
 function announcements(announce) {
-	const announceString = announce.toLowerCase();
 	const announceStyles = ["/announce", "/announceblue", "/announcegreen", "/announceorange", "/announcepurple"];
     let response = `${announceStyles[Math.floor(Math.random() * announceStyles.length)]}`;
 	const posts = {
@@ -9,7 +8,7 @@ function announcements(announce) {
 			title: "📷𝐍𝐔𝐄𝐕𝐀 𝐅𝐎𝐓𝐎📷",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.instagram.com/p/Co8aR6hLz7S"
-		},
+		},/*
 		instareel: {
 			title: "👀𝐍𝐔𝐄𝐕𝐎 𝐑𝐄𝐄𝐋👀",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
@@ -46,7 +45,7 @@ function announcements(announce) {
 
 	};
 
-    switch(announceString){
+    switch(announce){
         case "all":
             for(let [key, value] of Object.entries(posts)){
                 response += ` ${value.title} ${value.url} `;
@@ -57,18 +56,18 @@ function announcements(announce) {
 				}
             }
             return response;
-        case(announceString.includes(" ")):
-            const announceArray = announceString.split(" ");
+        case(announce.includes(" ")):
+            const announceArray = announce.split(" ");
             if(announceArray.length > 0){
                 announceArray.forEach(arrayElement => {
                     if(arrayElement in posts){
-                        response += `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announceString].title} ${posts[announceString].msg} ${posts[announceString].url}`;
+                        response += `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announce].title} ${posts[announce].msg} ${posts[announce].url}`;
                     }
                 })
             }
             return response;
-        case announceString in posts:
-            if(announceString === "skins"){
+        case announce in posts:
+            if(announce === "skins"){
 
                 for(let [key, value] of Object.entries(posts.skins)){
                     response += ` ${value.title} ${value.msg} ${value.url} `;
@@ -76,7 +75,7 @@ function announcements(announce) {
     
                 return response;
             }else{
-                return `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announceString].title} ${posts[announceString].msg} ${posts[announceString].url}`;
+                return `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announce].title} ${posts[announce].msg} ${posts[announce].url}`;
             }
         default: 
             let options = "";
