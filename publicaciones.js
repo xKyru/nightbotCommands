@@ -14,7 +14,7 @@ function announcements(announce) {
 			title: "👀𝐍𝐔𝐄𝐕𝐎 𝐑𝐄𝐄𝐋👀",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.instagram.com/p/CogP82eDoBR"
-		},
+		},/*
 		youtube: {
 			title: "🎥𝐍𝐔𝐄𝐕𝐎 𝐕𝐈𝐃𝐄𝐎🎥",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
@@ -24,7 +24,7 @@ function announcements(announce) {
 			title: "🔥𝐍𝐔𝐄𝐕𝐎 𝐓𝐈𝐊𝐓𝐎𝐊🔥",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.tiktok.com/@eritrajinx/video/7202701406694870278"
-		},
+		},*/
 		/*twitter: {
 			title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐂𝐎𝐍𝐒𝐎𝐋𝐀 𝐃𝐄 𝐀𝐔𝐃𝐈𝐎 𝐙𝐆𝟎𝟏 𝐘𝐀𝐌𝐀𝐇𝐀✨",
 			msg: "Participa por un mezclador de audio de juegos ZG01 de Yamaha 💜",
@@ -52,7 +52,7 @@ function announcements(announce) {
                 response += ` ${value.title} ${value.url} `;
 				if(Object.entries(value).length > 1){
 					for(let [innerKey, innerValue] of Object.entries(value)){
-						response += ` ${innerValue.title} ${innerValue.msg} ${innerValue.url} `;
+						response += ` ${innerValue.title} ${innerValue.url} `;
 					}
 				}
             }
