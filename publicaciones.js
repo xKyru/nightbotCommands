@@ -1,6 +1,7 @@
 announcements(type);
 
 function announcements(announce) {
+	const announceString = announce.toLowerCase();
 	const announceStyles = ["/announce", "/announceblue", "/announcegreen", "/announceorange", "/announcepurple"];
     let response = `${announceStyles[Math.floor(Math.random() * announceStyles.length)]}`;
 	const posts = {
@@ -45,24 +46,24 @@ function announcements(announce) {
 
 	};
 
-    switch(announce){
+    switch(announceString){
         case "all":
             for(let [key, value] of Object.entries(posts)){
                 response += ` ${value.title} ${value.url} `
             }
             return response;
-        case(announce.contains(" ")):
-            const announceArray = announce.split(" ");
+        case(announceString.includes(" ")):
+            const announceArray = announceString.split(" ");
             if(announceArray.length > 0){
                 announceArray.forEach(arrayElement => {
                     if(arrayElement in posts){
-                        response += `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announce].title} ${posts[announce].msg} ${posts[announce].url}`;
+                        response += `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announceString].title} ${posts[announceString].msg} ${posts[announceString].url}`;
                     }
                 })
             }
             return response;
-        case announce in posts:
-            if(announce === "skins"){
+        case announceString in posts:
+            if(announceString === "skins"){
 
                 for(let [key, value] of Object.entries(posts.skins)){
                     response += ` ${value.title} ${value.msg} ${value.url} `;
@@ -70,7 +71,7 @@ function announcements(announce) {
     
                 return response;
             }else{
-                return `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announce].title} ${posts[announce].msg} ${posts[announce].url}`;
+                return `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announceString].title} ${posts[announceString].msg} ${posts[announceString].url}`;
             }
         default: 
             let options = "";
