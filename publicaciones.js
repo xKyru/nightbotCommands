@@ -50,8 +50,8 @@ function announcements(announce) {
         case "all":
             for(let [key, value] of Object.entries(posts)){
                 response += ` ${value.title} ${value.url} `;
-				if(Object.entries(posts.value).length > 0){
-					for(let [innerKey, innerValue] of Object.entries(posts.value)){
+				if(Object.entries(posts.key).length > 0){
+					for(let [innerKey, innerValue] of Object.entries(posts.key)){
 						response += ` ${innerValue.title} ${innerValue.url} `;
 					}
 				}
