@@ -1,6 +1,7 @@
 announcements(type);
 
 function announcements(announce) {
+	const announceString = announce.toLowerCase();
 	const announceStyles = ["/announce", "/announceblue", "/announcegreen", "/announceorange", "/announcepurple"];
     let response = `${announceStyles[Math.floor(Math.random() * announceStyles.length)]}`;
 	const posts = {
@@ -9,6 +10,26 @@ function announcements(announce) {
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.instagram.com/p/Co8aR6hLz7S"
 		},
+		instareel: {
+			title: "👀𝐍𝐔𝐄𝐕𝐎 𝐑𝐄𝐄𝐋👀",
+			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
+			url: "https://www.instagram.com/p/CogP82eDoBR"
+		},/*
+		youtube: {
+			title: "🎥𝐍𝐔𝐄𝐕𝐎 𝐕𝐈𝐃𝐄𝐎🎥",
+			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
+			url: "https://www.youtube.com/watch?v=B09toQKEAG4"
+		},
+		tiktok: {
+			title: "🔥𝐍𝐔𝐄𝐕𝐎 𝐓𝐈𝐊𝐓𝐎𝐊🔥",
+			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
+			url: "https://www.tiktok.com/@eritrajinx/video/7202701406694870278"
+		},
+		/*twitter: {
+			title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐂𝐎𝐍𝐒𝐎𝐋𝐀 𝐃𝐄 𝐀𝐔𝐃𝐈𝐎 𝐙𝐆𝟎𝟏 𝐘𝐀𝐌𝐀𝐇𝐀✨",
+			msg: "Participa por un mezclador de audio de juegos ZG01 de Yamaha 💜",
+			url: "https://twitter.com/EritraJinx/status/1628503701429141504"
+		},*/
 		skins:{
 			skin1:{
 				title: "❤️‍🔥𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐅𝐎𝐗𝐅𝐈𝐑𝐄 𝐀𝐇𝐑𝐈❤️‍🔥",
@@ -25,29 +46,29 @@ function announcements(announce) {
 
 	};
 
-    switch(announce){
+    switch(announceString){
         case "all":
             for(let [key, value] of Object.entries(posts)){
                 response += ` ${value.title} ${value.url} `;
-				if(Object.entries(value).length > 1){
-					for(let [innerKey, innerValue] of Object.entries(value)){
+				if(Object.entries(posts.value).length > 0){
+					for(let [innerKey, innerValue] of Object.entries(posts.value)){
 						response += ` ${innerValue.title} ${innerValue.url} `;
 					}
 				}
             }
             return response;
-        case(announce.includes(" ")):
-            const announceArray = announce.split(" ");
+        case(announceString.includes(" ")):
+            const announceArray = announceString.split(" ");
             if(announceArray.length > 0){
                 announceArray.forEach(arrayElement => {
                     if(arrayElement in posts){
-                        response += `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announce].title} ${posts[announce].msg} ${posts[announce].url}`;
+                        response += `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announceString].title} ${posts[announceString].msg} ${posts[announceString].url}`;
                     }
                 })
             }
             return response;
-        case announce in posts:
-            if(announce === "skins"){
+        case announceString in posts:
+            if(announceString === "skins"){
 
                 for(let [key, value] of Object.entries(posts.skins)){
                     response += ` ${value.title} ${value.msg} ${value.url} `;
@@ -55,7 +76,7 @@ function announcements(announce) {
     
                 return response;
             }else{
-                return `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announce].title} ${posts[announce].msg} ${posts[announce].url}`;
+                return `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announceString].title} ${posts[announceString].msg} ${posts[announceString].url}`;
             }
         default: 
             let options = "";
