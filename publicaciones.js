@@ -49,7 +49,12 @@ function announcements(announce) {
     switch(announceString){
         case "all":
             for(let [key, value] of Object.entries(posts)){
-                response += ` ${value.title} ${value.url} `
+                response += ` ${value.title} ${value.url} `;
+				if(Object.entries(value).length > 1){
+					for(let [innerKey, innerValue] of Object.entries(value)){
+						response += ` ${innerValue.title} ${innerValue.msg} ${innerValue.url} `;
+					}
+				}
             }
             return response;
         case(announceString.includes(" ")):
