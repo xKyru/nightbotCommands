@@ -25,10 +25,11 @@ function announcements(announce) {
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.tiktok.com/@eritrajinx/video/7202701406694870278"
 		},
-		skins:{
-			skin1:{
+		skins: {
+			skin1: {
 				title: "❤️‍🔥𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐅𝐎𝐗𝐅𝐈𝐑𝐄 𝐀𝐇𝐑𝐈❤️‍🔥",
 				msg: "",
+				/*msg: "Participa por una skin de Zilean. Incluye Campeón + Skin + Chroma #LPP 💜"*/
 				url: "https://twitter.com/EritraJinx/status/1628503701429141504"
 			},
 		}
@@ -36,48 +37,53 @@ function announcements(announce) {
 	};
 
 
-	
-	if(announceString === "all"){
-		for(let [key, value] of Object.entries(posts)){
-			response += `${value.title} ${value.url} `
-		}
 
+	if (announceString === "all") {
+		for (let [key, value] of Object.entries(posts)) {
+			if (key === "skins") {
+				for (let [innerKey, innerValue] of Object.entries(posts.skins)) {
+					response += `${innerValue.title} ${innerValue.url} `;
+				}
+			} else {
+				response += `${value.title} ${value.url} `;
+			}
+		}
 		return response;
 
 	}
-	else if(announceString.includes(" ")){
+	else if (announceString.includes(" ")) {
 		const announceArray = announceString.split(" ");
-		if(announceArray.length > 0){
+		if (announceArray.length > 0) {
 			announceArray.forEach(arrayElement => {
-				if(arrayElement in posts){
-					if(arrayElement === "skins"){
-						
-						for(let [key, value] of Object.entries(posts.skins)){
+				if (arrayElement in posts) {
+					if (arrayElement === "skins") {
+
+						for (let [key, value] of Object.entries(posts.skins)) {
 							response += `${value.title} ${value.url} `;
 						}
-					}else{
+					} else {
 						response += `${posts[arrayElement].title} ${posts[arrayElement].url} `;
 					}
 				}
-				
+
 			});
 			return response;
 		}
 	}
-	else if(announceString in posts){
-		if(announceString === "skins"){
+	else if (announceString in posts) {
+		if (announceString === "skins") {
 
-			for(let [key, value] of Object.entries(posts.skins)){
+			for (let [key, value] of Object.entries(posts.skins)) {
 				response += `${value.title} ${value.url} `;
 			}
 
 			return response;
-		}else{
+		} else {
 			return `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announceString].title} ${posts[announceString].msg} ${posts[announceString].url}`;
 		}
-	}else{
+	} else {
 		let options = "";
-		for(let [key, value] of Object.entries(posts)){
+		for (let [key, value] of Object.entries(posts)) {
 			options += key + " | ";
 		}
 		return `Opciones disponibles: ${options}all`;
