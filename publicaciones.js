@@ -1,9 +1,9 @@
 announcements(type);
 
 function announcements(announce) {
-	const announceString = announce.toLowerCase();
+	const announceString = announce.toLowerCase().trim();
 	const announceStyles = ["/announce", "/announceblue", "/announcegreen", "/announceorange", "/announcepurple"];
-    let response = `${announceStyles[Math.floor(Math.random() * announceStyles.length)]}`;
+	let response = `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} `;
 	const posts = {
 		instapost: {
 			title: "📷𝐍𝐔𝐄𝐕𝐀 𝐅𝐎𝐓𝐎📷",
@@ -14,7 +14,7 @@ function announcements(announce) {
 			title: "👀𝐍𝐔𝐄𝐕𝐎 𝐑𝐄𝐄𝐋👀",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.instagram.com/p/CogP82eDoBR"
-		},/*
+		},
 		youtube: {
 			title: "🎥𝐍𝐔𝐄𝐕𝐎 𝐕𝐈𝐃𝐄𝐎🎥",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
@@ -25,66 +25,63 @@ function announcements(announce) {
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
 			url: "https://www.tiktok.com/@eritrajinx/video/7202701406694870278"
 		},
-		/*twitter: {
-			title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐂𝐎𝐍𝐒𝐎𝐋𝐀 𝐃𝐄 𝐀𝐔𝐃𝐈𝐎 𝐙𝐆𝟎𝟏 𝐘𝐀𝐌𝐀𝐇𝐀✨",
-			msg: "Participa por un mezclador de audio de juegos ZG01 de Yamaha 💜",
-			url: "https://twitter.com/EritraJinx/status/1628503701429141504"
-		},*/
 		skins:{
 			skin1:{
 				title: "❤️‍🔥𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐅𝐎𝐗𝐅𝐈𝐑𝐄 𝐀𝐇𝐑𝐈❤️‍🔥",
 				msg: "",
-				/*msg: "Participa por una skin de Zilean. Incluye Campeón + Skin + Chroma #LPP 💜"*/
-				url: "https://twitter.com/EritraJinx/status/1598852763965804545"
+				url: "https://twitter.com/EritraJinx/status/1628503701429141504"
 			},
-			skin2:{
-				title: "✨𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐒𝐏𝐀𝐂𝐄 𝐆𝐑𝐎𝐎𝐕𝐄 𝐆𝐑𝐀𝐆𝐀𝐒✨",
-				msg: "",
-				url: "https://twitter.com/EritraJinx/status/1611067632014266370"
-			}
 		}
 
 	};
 
-    switch(announceString){
-        case "all":
-            for(let [key, value] of Object.entries(posts)){
-                response += ` ${value.title} ${value.url} `;
-				if(Object.entries(posts.key).length > 0){
-					for(let [innerKey, innerValue] of Object.entries(posts.key)){
-						response += ` ${innerValue.title} ${innerValue.url} `;
+
+	
+	if(announceString === "all"){
+		for(let [key, value] of Object.entries(posts)){
+			response += `${value.title} ${value.url} `
+		}
+
+		return response;
+
+	}
+	else if(announceString.includes(" ")){
+		const announceArray = announceString.split(" ");
+		if(announceArray.length > 0){
+			announceArray.forEach(arrayElement => {
+				if(arrayElement in posts){
+					if(arrayElement === "skins"){
+						
+						for(let [key, value] of Object.entries(posts.skins)){
+							response += `${value.title} ${value.url} `;
+						}
+					}else{
+						response += `${posts[arrayElement].title} ${posts[arrayElement].url} `;
 					}
 				}
-            }
-            return response;
-        case(announceString.includes(" ")):
-            const announceArray = announceString.split(" ");
-            if(announceArray.length > 0){
-                announceArray.forEach(arrayElement => {
-                    if(arrayElement in posts){
-                        response += `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announceString].title} ${posts[announceString].msg} ${posts[announceString].url}`;
-                    }
-                })
-            }
-            return response;
-        case announceString in posts:
-            if(announceString === "skins"){
+				
+			});
+			return response;
+		}
+	}
+	else if(announceString in posts){
+		if(announceString === "skins"){
 
-                for(let [key, value] of Object.entries(posts.skins)){
-                    response += ` ${value.title} ${value.msg} ${value.url} `;
-                }
-    
-                return response;
-            }else{
-                return `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announceString].title} ${posts[announceString].msg} ${posts[announceString].url}`;
-            }
-        default: 
-            let options = "";
-            for(let [key, value] of Object.entries(posts)){
-                options += key + " | ";
-            }
-            return `Opciones disponibles: ${options}all`;
-    }
+			for(let [key, value] of Object.entries(posts.skins)){
+				response += `${value.title} ${value.url} `;
+			}
+
+			return response;
+		}else{
+			return `${announceStyles[Math.floor(Math.random() * announceStyles.length)]} ${posts[announceString].title} ${posts[announceString].msg} ${posts[announceString].url}`;
+		}
+	}else{
+		let options = "";
+		for(let [key, value] of Object.entries(posts)){
+			options += key + " | ";
+		}
+		return `Opciones disponibles: ${options}all`;
+	};
 }
 
 /* !addcom !anuncio $(eval const type = decodeURIComponent(`$(querystring)`); $(urlfetch json https://raw.githubusercontent.com/xKyru/nightbotCommands/main/publicaciones.js)) */
