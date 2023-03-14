@@ -23,7 +23,7 @@ function announcements(announce) {
 		tiktok: {
 			title: "🔥𝐍𝐔𝐄𝐕𝐎 𝐓𝐈𝐊𝐓𝐎𝐊🔥",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.tiktok.com/@eritrajinx/video/7209077173959855366"
+			url: "https://www.tiktok.com/@eritrajinx/video/7210186842593856774"
 		},
 		skins: {
 			skin1: {
