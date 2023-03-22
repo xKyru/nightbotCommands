@@ -27,10 +27,10 @@ function announcements(announce) {
 		},
 		skins: {
 			skin1: {
-				title: "❤️‍🔥𝐒𝐎𝐑𝐓𝐄𝐎 𝐒𝐊𝐈𝐍 | 𝐅𝐎𝐗𝐅𝐈𝐑𝐄 𝐀𝐇𝐑𝐈❤️‍🔥",
+				title: "🚀𝐒𝐎𝐑𝐓𝐄𝐎 𝐀𝐒𝐓𝐑𝐎𝐍𝐀𝐔𝐓 𝐈𝐕𝐄𝐑𝐍🚀",
 				msg: "",
 				/*msg: "Participa por una skin de Zilean. Incluye Campeón + Skin + Chroma #LPP 💜"*/
-				url: "https://twitter.com/EritraJinx/status/1628503701429141504"
+				url: "https://twitter.com/EritraJinx/status/1638377540828971008"
 			},
 		}
 
