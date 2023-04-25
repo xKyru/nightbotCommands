@@ -36,6 +36,8 @@ function announcements(announce) {
 
 	};
 
+	return "Fuera de servicio"
+
 
 
 	if (announceString === "all") {
