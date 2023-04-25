@@ -36,7 +36,7 @@ function announcements(announce) {
 
 	};
 
-	return "Fuera de servicio"
+	return "Fuera de servicio";
 
 
 
