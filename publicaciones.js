@@ -8,12 +8,12 @@ function announcements(announce) {
 		instapost: {
 			title: "📷𝐍𝐔𝐄𝐕𝐀 𝐅𝐎𝐓𝐎📷",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.instagram.com/p/Cpq4Mg5D7CT"
+			url: "https://www.instagram.com/p/Cr2BYfVsikM"
 		},
 		instareel: {
 			title: "👀𝐍𝐔𝐄𝐕𝐎 𝐑𝐄𝐄𝐋👀",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.instagram.com/p/Cp6m_qWDxzU"
+			url: "https://www.instagram.com/p/Cr4eu_zA2ZF"
 		},
 		youtube: {
 			title: "🎥𝐍𝐔𝐄𝐕𝐎 𝐕𝐈𝐃𝐄𝐎🎥",
@@ -23,7 +23,7 @@ function announcements(announce) {
 		tiktok: {
 			title: "🔥𝐍𝐔𝐄𝐕𝐎 𝐓𝐈𝐊𝐓𝐎𝐊🔥",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.tiktok.com/@eritrajinx/video/7212767376985705733"
+			url: "https://www.tiktok.com/@eritrajinx/video/7229876719879015685"
 		},
 		skins: {
 			skin1: {
@@ -35,10 +35,6 @@ function announcements(announce) {
 		}
 
 	};
-
-	return "Fuera de servicio";
-
-
 
 	if (announceString === "all") {
 		for (let [key, value] of Object.entries(posts)) {
