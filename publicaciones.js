@@ -13,7 +13,7 @@ function announcements(announce) {
 		instareel: {
 			title: "👀𝐍𝐔𝐄𝐕𝐎 𝐑𝐄𝐄𝐋👀",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.instagram.com/p/Cr4eu_zA2ZF"
+			url: "https://www.instagram.com/p/CsSTK-7orCT"
 		},
 		youtube: {
 			title: "🎥𝐍𝐔𝐄𝐕𝐎 𝐕𝐈𝐃𝐄𝐎🎥",
@@ -23,7 +23,7 @@ function announcements(announce) {
 		tiktok: {
 			title: "🔥𝐍𝐔𝐄𝐕𝐎 𝐓𝐈𝐊𝐓𝐎𝐊🔥",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.tiktok.com/@eritrajinx/video/7230230836413533446"
+			url: "https://www.tiktok.com/@eritrajinx/video/7233196575525260549"
 		},
 		skins: {
 			skin1: {
