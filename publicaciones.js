@@ -8,7 +8,7 @@ function announcements(announce) {
 		instapost: {
 			title: "📷𝐍𝐔𝐄𝐕𝐀 𝐅𝐎𝐓𝐎📷",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.instagram.com/p/Cr2BYfVsikM"
+			url: "https://www.instagram.com/p/CscqGqCM8_F"
 		},
 		instareel: {
 			title: "👀𝐍𝐔𝐄𝐕𝐎 𝐑𝐄𝐄𝐋👀",
@@ -23,7 +23,7 @@ function announcements(announce) {
 		tiktok: {
 			title: "🔥𝐍𝐔𝐄𝐕𝐎 𝐓𝐈𝐊𝐓𝐎𝐊🔥",
 			msg: "Me ayudas mucho al darle like, comentar y compartir 💜",
-			url: "https://www.tiktok.com/@eritrajinx/video/7234316365962792198"
+			url: "https://www.tiktok.com/@eritrajinx/video/7235072681035500806"
 		},
 		skins: {
 			skin1: {
