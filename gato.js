@@ -12,7 +12,7 @@ function gato(nombre) {
 		"Gato de teclado", "Auditor de plato", "Croissant con patas",
 		"Gato de mochila", "Licenciado en siestas", "Gato de azotea VIP",
 		"Pantera de lavadora", "Gato de techo de lámina", "Conde de la caja",
-		"Gato de vecindad", "Ministro del croquetas", "Gato de estacionamiento",
+		"Gato de vecindad", "Ministro de croquetas", "Gato de estacionamiento",
 		"Faraón del armario", "Gato de terraza", "Capitán del refrigerador"
 	];
 
@@ -50,7 +50,7 @@ function gato(nombre) {
 		"ninja de las cortinas", "terapeuta profesional de regazo",
 		"ladrón certificado de pollo", "guardia de seguridad del teclado",
 		"influencer de siestas", "arquitecto de torres de almohadas",
-		"cazador de motas de polvo", "rey/reina del microondas a las 6:00",
+		"cazador de partículas de polvo",
 		"experto en miradas de decepción", "co-piloto no solicitado del monitor"
 	];
 
@@ -60,9 +60,9 @@ function gato(nombre) {
 		"cree que es un perro cuando hay visitas",
 		"colecciona tapones de botella",
 		"odia el cilantro (y a veces a ti)",
-		"tiene un plan de 12 pasos para abrir la nevera",
+		"tiene un plan de 12 pasos para abrir el refrigerador",
 		"duerme en forma de croissant",
-		"te vigila mientras comes como un auditor fiscal",
+		"te vigila mientras comes",
 		"comunica solo con parpadeos lentos",
 		"declaró la guerra a una bolsa de plástico"
 	];
