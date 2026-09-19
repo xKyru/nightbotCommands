@@ -59,7 +59,7 @@ function gato(nombre) {
 		"ronronea en stereo",
 		"cree que es un perro cuando hay visitas",
 		"colecciona tapones de botella",
-		"odia el cilantro (y a veces a ti, 0.3 segundos)",
+		"odia el cilantro (y a veces a ti)",
 		"tiene un plan de 12 pasos para abrir la nevera",
 		"duerme en forma de croissant",
 		"te vigila mientras comes como un auditor fiscal",
