@@ -68,12 +68,7 @@ function gato(nombre) {
 	];
 
 	const titulos = [
-		"Tu tipo de gato es:",
-		"El oráculo felino ha hablado:",
-		"Diagnóstico oficial:",
-		"Carta astral gatuna:",
-		"Resultado del escáner 🐱:",
-		"Tu forma gatuna revelada:"
+		"Tu tipo de gato es:"
 	];
 
 	const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
@@ -88,10 +83,7 @@ function gato(nombre) {
 	const titulo = pick(titulos);
 
 	const plantillas = [
-		`${titulo} ${raza} ${color}, de ${pelo}, patrón ${patron} y ${ojo}. ${quien} es un(a) ${perso}. Detalle único: ${rareza}. 🐱`,
-		`${titulo} un(a) ${raza} ${color} con ${ojo}. Pelaje: ${pelo} + ${patron}. Rol en la casa: ${perso}. Rareza: ${rareza}. 🐾`,
-		`${titulo} ${raza}. Color ${color}, ${patron}, ${pelo}. ${quien} encarna a un(a) ${perso} y además ${rareza}. 😻`,
-		`🔮 ${titulo} ${color.toUpperCase()} ${raza}. Mirada: ${ojo}. Estilo: ${patron}. Oficio: ${perso}. Easter egg: ${rareza}.`
+		`${titulo} ${raza} ${color}, de ${pelo}, patrón ${patron} y ${ojo}. ${quien} es un ${perso}. Detalle único: ${rareza}. 🐱`
 	];
 
 	return pick(plantillas);
