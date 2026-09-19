@@ -5,18 +5,15 @@ function gato(nombre) {
 	const quien = user ? user : "tú";
 
 	const razas = [
-		"Persa", "Siamés", "Maine Coon", "Bengalí", "Ragdoll", "British Shorthair",
-		"Sphynx", "Azul Ruso", "Angora Turco", "Sagrado de Birmania", "Abisinio",
-		"Scottish Fold", "Exotic Shorthair", "Noruego de los Bosques", "Siberiano",
-		"Oriental", "Balinés", "Burmés", "Bombay", "Chartreux", "Korat",
-		"Mau Egipcio", "Ocicat", "Savannah", "Munchkin", "Manx", "Cymric",
-		"Cornish Rex", "Devon Rex", "Selkirk Rex", "Peterbald", "Don Sphynx",
-		"Van Turco", "Snowshoe", "Tonkinés", "Havana Brown", "Nebelung",
-		"Somalí", "LaPerm", "American Curl", "American Bobtail", "Japanese Bobtail",
-		"Singapura", "Sokoke", "Burmilla", "Pixiebob", "Highlander",
-		"Lykoi (gato lobo)", "Toyger", "Chausie", "Khao Manee", "Turkish Angora",
-		"European Shorthair", "Gato común europeo", "Calicó de barrio",
-		"Gato naranja de tesorería", "Gato de azotea", "Pantera de sofá"
+		"Gato de azotea", "Calicó de barrio", "Pantera de sofá",
+		"Gato fiscal naranja", "CEO de la caja", "Gato de tesorería",
+		"Tigre de balcón", "Leopardo de tendedero", "Esfinge de radiador",
+		"Guardián del microondas", "Ninja de cortinas", "Sirena del atún",
+		"Gato de teclado", "Auditor de plato", "Croissant con patas",
+		"Gato de mochila", "Licenciado en siestas", "Gato de azotea VIP",
+		"Pantera de lavadora", "Gato de techo de lámina", "Conde de la caja",
+		"Gato de vecindad", "Ministro del croquetas", "Gato de estacionamiento",
+		"Faraón del armario", "Gato de terraza", "Capitán del refrigerador"
 	];
 
 	const colores = [
@@ -101,9 +98,6 @@ function gato(nombre) {
 }
 
 /*
-Nightbot (sin argumento):
+Nightbot:
 !addcom !gato $(eval const user = `$(user)`; $(urlfetch json https://raw.githubusercontent.com/USUARIO/REPO/main/gato.js))
-
-Nightbot (si quieres pasar query):
-!addcom !gato $(eval const user = decodeURIComponent(`$(querystring)` ) || `$(user)`; $(urlfetch json https://raw.githubusercontent.com/USUARIO/REPO/main/gato.js))
 */
