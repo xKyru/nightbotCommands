@@ -47,7 +47,7 @@ function gato(nombre) {
 		"se asusta con su propia sombra",
 		"comunica sus traumas mediante maullidos desgarradores frente al plato medio lleno",
 		"declaró una guerra a muerte contra las bolsas de plástico",
-		"corre a 100 km/h por el pasillo después de ir al baño",
+		"corre a 100 km/h por el pasillo",
 		"duerme en posiciones que desafían las leyes de la física"
 	];
 
@@ -68,7 +68,7 @@ function gato(nombre) {
 	const titulo = pick(titulos);
 
 	const plantillas = [
-		`${titulo} un **${raza}** color ${color}, patrón ${patron}. ${quien} es un(a) ${perso}. Dato perturbador: ${rareza}. 🐱`
+		`${titulo} un ${raza}, color ${color}, patrón ${patron}. ${quien} es un(a) ${perso}. Detalle único: ${rareza}. 🐱`
 	];
 
 	return pick(plantillas);
