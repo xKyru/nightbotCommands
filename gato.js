@@ -89,5 +89,5 @@ function gato(nombre) {
 
 /*
 Nightbot:
-!addcom !gato -cd=10 $(eval const user = `$(user)`; $(urlfetch json https://raw.githubusercontent.com/USUARIO/REPO/main/gato.js))
+!addcom !gato -cd=10 $(eval const user = `$(user)`; $(https://raw.githubusercontent.com/xKyru/nightbotCommands/refs/heads/main/gato.js))
 */
