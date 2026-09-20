@@ -27,7 +27,7 @@ function gato(nombre) {
 		"sólido", "atigrado",
 		"bicolor", "tricolor calicó", "carey", "torbie",
 		"rosetas de leopardo", "sombreado", "esmoquin", "calcetines blancos",
-		"máscara de bandido", "cola de anillos",
+		"máscara de bandido", "cola de anillos"
 	];
 
 	const pelajes = [
@@ -89,5 +89,5 @@ function gato(nombre) {
 
 /*
 Nightbot:
-!addcom !gato -cd=10 $(eval const user = `$(user)`; $(https://raw.githubusercontent.com/xKyru/nightbotCommands/main/gato.js))
+!addcom !gato -cd=10 $(eval const user = `$(user)`; $(https://raw.githubusercontent.com/xKyru/nightbotCommands/refs/heads/main/gato.js))
 */
