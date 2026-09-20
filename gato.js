@@ -68,7 +68,7 @@ function gato(nombre) {
 	const titulo = pick(titulos);
 
 	const plantillas = [
-		`${titulo} un ${raza}, color ${color}, patrón ${patron}. ${quien} es un(a) ${perso}. Detalle único: ${rareza}. 🐱`
+		`${titulo} un ${raza}, color ${color} con ${patron}. ${quien} es un(a) ${perso}. Detalle único: ${rareza}. 🐱`
 	];
 
 	return pick(plantillas);
