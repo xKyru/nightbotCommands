@@ -19,28 +19,26 @@ function gato(nombre) {
 	const colores = [
 		"negro azabache", "blanco nieve", "naranja fuego", "crema vainilla",
 		"gris azul", "chocolate", "canela", "lila", "plateado", "dorado",
-		"atigrado gris", "atigrado naranja", "carey", "calicó", "smoke",
-		"chinchilla", "point seal", "point chocolate", "point lila", "point flame",
-		"bicolor tuxedo", "arlequín", "van", "ahumado", "fawn", "red tabby"
+		"atigrado gris", "atigrado naranja", "carey", "calicó", "humo",
+		"gris"
 	];
 
 	const patrones = [
-		"sólido", "atigrado mackerel (rayas de tigre)", "atigrado clásico (mármol)",
-		"atigrado moteado", "ticked (como el Abisinio)", "colorpoint",
-		"bicolor", "tricolor calicó", "carey / tortie", "torbie",
+		"sólido", "atigrado",
+		"bicolor", "tricolor calicó", "carey", "torbie",
 		"rosetas de leopardo", "sombreado", "esmoquin", "calcetines blancos",
-		"máscara de bandido", "cola de anillos", "bigotes teñidos de leche"
+		"máscara de bandido", "cola de anillos",
 	];
 
 	const pelajes = [
 		"pelo corto sedoso", "pelo largo de nube", "pelo semilargo esponjoso",
-		"pelo rizado rex", "casi sin pelo (elegante y tibio)", "pelo denso de invierno",
-		"pelo brillante de pantera", "pelo mullido de peluche"
+		"pelo rizado", "casi sin pelo", "pelo denso de invierno",
+		"pelo brillante de pantera", "pelo mullido"
 	];
 
 	const ojos = [
 		"ojos verdes esmeralda", "ojos azules glaciales", "ojos dorados",
-		"ojos ámbar", "ojos odd-eyed (uno de cada color)", "ojos cobre",
+		"ojos ámbar", "ojos con heterocromía ", "ojos cobre",
 		"ojos avellana", "ojos turquesa"
 	];
 
@@ -83,7 +81,7 @@ function gato(nombre) {
 	const titulo = pick(titulos);
 
 	const plantillas = [
-		`${titulo} ${raza}, color ${color}, de ${pelo}, patrón ${patron} y ${ojo}. ${quien} es un(a) ${perso}. Detalle único: ${rareza}. 🐱`
+		`${titulo} ${raza} ${color}, de ${pelo}, patrón ${patron} y ${ojo}. ${quien} es un(a) ${perso}. Detalle único: ${rareza}. 🐱`
 	];
 
 	return pick(plantillas);
@@ -91,5 +89,5 @@ function gato(nombre) {
 
 /*
 Nightbot:
-!addcom !gato $(eval const user = `$(user)`; $(urlfetch json https://raw.githubusercontent.com/USUARIO/REPO/main/gato.js))
+!addcom !gato -cd=10 $(eval const user = `$(user)`; $(urlfetch json https://raw.githubusercontent.com/USUARIO/REPO/main/gato.js))
 */
