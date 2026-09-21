@@ -32,3 +32,6 @@
     " para mi cumpleaños 🥳"
   );
 })()
+
+
+// !addcom !cumple $(eval $(urlfetch json https://raw.githubusercontent.com/xKyru/nightbotCommands/refs/heads/main/cumple.js))
